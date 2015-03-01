@@ -28,6 +28,6 @@
 ### Вспомогательные материалы
 
 1. [Реляционная алгебра](http://citforum.ru/database/dblearn/dblearn04.shtml)
-2. [Шпаргалка по операциям реляционной алгебры](http://db.tt/6y4kDrde)
+2. [Шпаргалка по операциям реляционной алгебры](https://www.dropbox.com/s/ocqp664cjpbri9l/rel_alg.pdf?dl=0)
 
 [Назад к главной странице курса](https://github.com/db2015ss/syllabus)
