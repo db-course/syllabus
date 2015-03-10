@@ -43,19 +43,19 @@
 
 В интерфейсе командной строки или редакторе SQL начать транзакцию без автофиксации можно выполнив команду BEGIN. В MySQL Workbench можно достичь того же, отключив режим автофиксации транзакций (Auto-Commit Transactions), после чего все выполняемые операторы будут объединены в одну транзакцию, а также станут доступны команды фиксации и отката текущей транзакции.
 
-    ![](./img/transmenuwb.png)
+    ![](https://github.com/db2015ss/syllabus/blob/master/img/transmenuwb.png)
 
 Те же элементы управления продублированы на панели инструментов.
 
-    ![](./img/transbuttonswb.png)
+    ![](https://github.com/db2015ss/syllabus/blob/master/img/transbuttonswb.png)
 
 В dbForge Studio for MySQL по умолчанию также включен режим автофиксации. Можно отключив его, нажав на кнопку начала транзакции или выбрав соответствующий элемент контекстного меню соединения.
 
-    ![](./img/transmenudbf.png)
+    ![](https://github.com/db2015ss/syllabus/blob/master/img/transmenudbf.png)
 
 После этого становятся доступны команды фиксации и отката текущей транзакции.
 
-    ![](./img/transbuttonsdbf.png)
+    ![](https://github.com/db2015ss/syllabus/blob/master/img/transbuttonsdbf.png)
 
 Для заданий задан уровень изоляции (RU – READ UNCOMMITTED, RC – READ COMMITTED, RR – REPEATABLE READ). Необходимо установить в подключении соответствующий уровень изоляции:
 
