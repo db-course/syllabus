@@ -271,5 +271,6 @@ _Решение_. Использовать reset, также как и в пре
 * http://githowto.com/ru
 * http://git-scm.com/book/ru/v1
 * http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/ru/
+* http://tproger.ru/translations/most-common-git-screwupsquestions-and-solutions/
 
 [Назад к главной странице курса](https://github.com/db2015ss/syllabus)
