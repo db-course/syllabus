@@ -30,7 +30,7 @@ __Важно__
 * [Создание базы данных в СУБД SQLite](https://github.com/db2015ss/syllabus/blob/master/labwork3.md)
 * Создание представлений на основании запросов на выборку в СУБД SQLite. Запросы на модификацию и удаление данных в СУБД SQLite
 * Создание триггеров в СУБД SQLite
-* Управление транзакциями в СУБД MySQL
+* [Управление транзакциями в СУБД MySQL](https://github.com/db2015ss/syllabus/blob/master/labwork6.md)
 
 -----
 
