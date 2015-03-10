@@ -118,7 +118,7 @@ MVCC, уровень READ UNCOMMITTED, зависимость потерянно
     </tr>
     <tr>
         <td>
-            ```sql
+            <pre>
                 SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
 
                 BEGIN;
@@ -136,14 +136,14 @@ MVCC, уровень READ UNCOMMITTED, зависимость потерянно
                 +------+
 
                 1 row in set (0.00 sec)
-            ```
+            </pre>
         </td>
         <td></td>
     </tr>
     <tr>
         <td></td>
         <td>
-            ```sql
+            <pre>
                 BEGIN;
 
                 UPDATE t SET i=3 WHERE i=2;
@@ -151,25 +151,24 @@ MVCC, уровень READ UNCOMMITTED, зависимость потерянно
                 Query OK, 1 row affected (0.05 sec)
 
                 Rows matched: 1  Changed: 1  Warnings: 0
-            ```
+            </pre>
         </td>
     </tr>
     <tr>
         <td>
-            ```sql
+            <pre>
                 UPDATE t SET i=5 WHERE i=2;
-
                 ERROR 1205 (HY000): Lock wait timeout exceeded; try restarting transaction
-            ```
+            </pre>
         </td>
         <td></td>
     </tr>
     <tr>
         <td></td>
         <td>
-            ```
+            <pre>
                 COMMIT;
-            ```
+            </pre>
         </td>            
     </tr>
 </table>
@@ -187,7 +186,7 @@ LOCK, уровень READ COMMITTED, зависимость фантомов
     </tr>
     <tr>
         <td>
-            <span style="font-family:'Consolas', 'Courier New', monospace;">
+            <pre>
                 SET TRANSACTION ISOLATION LEVEL READ COMMITTED;
 
                 BEGIN;
@@ -205,54 +204,49 @@ LOCK, уровень READ COMMITTED, зависимость фантомов
                 +------+
 
                 1 row in set (0.00 sec)
-
-            </span>
+            </pre>
         </td>
         <td></td>
     </tr>
     <tr>
         <td></td>
         <td>
-            <span style="font-family:'Consolas', 'Courier New', monospace;">
+            <pre>
                 BEGIN;
 
                 INSERT INTO t VALUES (3);
 
                 Query OK, 1 row affected (0.00 sec)
-
-            </span> 
+            </pre> 
         </td>
     </tr>
     <tr>
         <td>
-            <span style="font-family:'Consolas', 'Courier New', monospace;">
+            <pre>
                 SELECT * FROM t WHERE i = 3 LOCK IN SHARE MODE;
-
-            </span>
+            </pre>
         </td>
         <td></td>
     </tr>
     <tr>
         <td>
-            <span style="font-family:'Consolas', 'Courier New', monospace;">
+            <pre>
                 ожидание...
-
-            </span>
+            </pre>
         </td>
         <td></td>
     </tr>
     <tr>
         <td></td>
         <td>
-            <span style="font-family:'Consolas', 'Courier New', monospace;">
+            <pre>
                 COMMIT;
-
-            </span>
+            </pre>
         </td>            
     </tr>
     <tr>
         <td>
-            <span style="font-family:'Consolas', 'Courier New', monospace;">
+            <pre>
                 +------+
 
                 |&nbsp;i&nbsp;&nbsp;&nbsp;&nbsp;|
@@ -266,8 +260,7 @@ LOCK, уровень READ COMMITTED, зависимость фантомов
                 +------+
 
                 2 rows in set (0.00 sec)
-
-            </span>
+            </pre>
         </td>
         <td></td>
     </tr>
