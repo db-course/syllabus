@@ -147,7 +147,8 @@ Rows matched: 1  Changed: 1  Warnings: 0
         <td>
             <pre>
 UPDATE t SET i=5 WHERE i=2;
-ERROR 1205 (HY000): Lock wait timeout exceeded; try restarting transaction
+ERROR 1205 (HY000): Lock wait timeout exceeded; 
+try restarting transaction
             </pre>
         </td>
         <td></td>
