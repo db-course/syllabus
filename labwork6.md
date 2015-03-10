@@ -119,23 +119,15 @@ MVCC, уровень READ UNCOMMITTED, зависимость потерянно
     <tr>
         <td>
             <pre>
-                SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
-
-                BEGIN;
-
-                SELECT * FROM t WHERE i = 3;
-
-                +------+
-
-                |&nbsp;i&nbsp;&nbsp;&nbsp;&nbsp;|
-
-                +------+
-
-                |&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;|
-
-                +------+
-
-                1 row in set (0.00 sec)
+SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
+BEGIN;
+SELECT * FROM t WHERE i = 3;
++------+
+|&nbsp;i&nbsp;&nbsp;&nbsp;&nbsp;|
++------+
+|&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;|
++------+
+1 row in set (0.00 sec)
             </pre>
         </td>
         <td></td>
@@ -144,21 +136,18 @@ MVCC, уровень READ UNCOMMITTED, зависимость потерянно
         <td></td>
         <td>
             <pre>
-                BEGIN;
-
-                UPDATE t SET i=3 WHERE i=2;
-
-                Query OK, 1 row affected (0.05 sec)
-
-                Rows matched: 1  Changed: 1  Warnings: 0
+BEGIN;
+UPDATE t SET i=3 WHERE i=2;
+Query OK, 1 row affected (0.05 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
             </pre>
         </td>
     </tr>
     <tr>
         <td>
             <pre>
-                UPDATE t SET i=5 WHERE i=2;
-                ERROR 1205 (HY000): Lock wait timeout exceeded; try restarting transaction
+UPDATE t SET i=5 WHERE i=2;
+ERROR 1205 (HY000): Lock wait timeout exceeded; try restarting transaction
             </pre>
         </td>
         <td></td>
@@ -167,7 +156,7 @@ MVCC, уровень READ UNCOMMITTED, зависимость потерянно
         <td></td>
         <td>
             <pre>
-                COMMIT;
+COMMIT;
             </pre>
         </td>            
     </tr>
@@ -187,23 +176,15 @@ LOCK, уровень READ COMMITTED, зависимость фантомов
     <tr>
         <td>
             <pre>
-                SET TRANSACTION ISOLATION LEVEL READ COMMITTED;
-
-                BEGIN;
-
-                SELECT * FROM t WHERE i = 3 LOCK IN SHARE MODE;
-
-                +------+
-
-                |&nbsp;i&nbsp;&nbsp;&nbsp;&nbsp;|
-
-                +------+
-
-                |&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;|
-
-                +------+
-
-                1 row in set (0.00 sec)
+SET TRANSACTION ISOLATION LEVEL READ COMMITTED;
+BEGIN;
+SELECT * FROM t WHERE i = 3 LOCK IN SHARE MODE;
++------+
+|&nbsp;i&nbsp;&nbsp;&nbsp;&nbsp;|
++------+
+|&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;|
++------+
+1 row in set (0.00 sec)
             </pre>
         </td>
         <td></td>
@@ -212,18 +193,16 @@ LOCK, уровень READ COMMITTED, зависимость фантомов
         <td></td>
         <td>
             <pre>
-                BEGIN;
-
-                INSERT INTO t VALUES (3);
-
-                Query OK, 1 row affected (0.00 sec)
+BEGIN;
+INSERT INTO t VALUES (3);
+Query OK, 1 row affected (0.00 sec)
             </pre> 
         </td>
     </tr>
     <tr>
         <td>
             <pre>
-                SELECT * FROM t WHERE i = 3 LOCK IN SHARE MODE;
+SELECT * FROM t WHERE i = 3 LOCK IN SHARE MODE;
             </pre>
         </td>
         <td></td>
@@ -231,7 +210,7 @@ LOCK, уровень READ COMMITTED, зависимость фантомов
     <tr>
         <td>
             <pre>
-                ожидание...
+ожидание...
             </pre>
         </td>
         <td></td>
@@ -240,26 +219,20 @@ LOCK, уровень READ COMMITTED, зависимость фантомов
         <td></td>
         <td>
             <pre>
-                COMMIT;
+COMMIT;
             </pre>
         </td>            
     </tr>
     <tr>
         <td>
             <pre>
-                +------+
-
-                |&nbsp;i&nbsp;&nbsp;&nbsp;&nbsp;|
-
-                +------+
-
-                |&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;|
-
-                |&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;|
-
-                +------+
-
-                2 rows in set (0.00 sec)
++------+
+|&nbsp;i&nbsp;&nbsp;&nbsp;&nbsp;|
++------+
+|&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;|
+|&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;|
++------+
+2 rows in set (0.00 sec)
             </pre>
         </td>
         <td></td>
