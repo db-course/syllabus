@@ -111,72 +111,72 @@ SET SESSION TRANSACTION ISOLATION LEVEL уровень; -- для всех по�
 
 MVCC, уровень READ UNCOMMITTED, зависимость потерянного обновления
 
-    <table border="1">
-        <tr>
-            <th>T1</th>
-            <th>T2</th>
-        </tr>
-        <tr>
-            <td>
-                <span style="font-family:'Consolas', 'Courier New', monospace;">
-                    SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
+<table border="1">
+    <tr>
+        <th>T1</th>
+        <th>T2</th>
+    </tr>
+    <tr>
+        <td>
+            <span style="font-family:'Consolas', 'Courier New', monospace;">
+                SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
 
-                    BEGIN;
+                BEGIN;
 
-                    SELECT * FROM t WHERE i = 3;
+                SELECT * FROM t WHERE i = 3;
 
-                    +------+
+                +------+
 
-                    |&nbsp;i&nbsp;&nbsp;&nbsp;&nbsp;|
+                |&nbsp;i&nbsp;&nbsp;&nbsp;&nbsp;|
 
-                    +------+
+                +------+
 
-                    |&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;|
+                |&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;|
 
-                    +------+
+                +------+
 
-                    1 row in set (0.00 sec)
+                1 row in set (0.00 sec)
 
-                </span>
-            </td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>
-                <span style="font-family:'Consolas', 'Courier New', monospace;">
-                    BEGIN;
+            </span>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+            <span style="font-family:'Consolas', 'Courier New', monospace;">
+                BEGIN;
 
-                    UPDATE t SET i=3 WHERE i=2;
+                UPDATE t SET i=3 WHERE i=2;
 
-                    Query OK, 1 row affected (0.05 sec)
+                Query OK, 1 row affected (0.05 sec)
 
-                    Rows matched: 1  Changed: 1  Warnings: 0
+                Rows matched: 1  Changed: 1  Warnings: 0
 
-                </span> 
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span style="font-family:'Consolas', 'Courier New', monospace;">
-                    UPDATE t SET i=5 WHERE i=2;
+            </span> 
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <span style="font-family:'Consolas', 'Courier New', monospace;">
+                UPDATE t SET i=5 WHERE i=2;
 
-                    ERROR 1205 (HY000): Lock wait timeout exceeded; try restarting transaction
+                ERROR 1205 (HY000): Lock wait timeout exceeded; try restarting transaction
 
-                </span>
-            </td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>
-                <span style="font-family:'Consolas', 'Courier New', monospace;">
-                    COMMIT;
+            </span>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+            <span style="font-family:'Consolas', 'Courier New', monospace;">
+                COMMIT;
 
-                </span>
-            </td>            
-        </tr>
-    </table>
+            </span>
+        </td>            
+    </tr>
+</table>
 
 Вывод: потерянное обновление не допускается, транзакция T1, пытающаяся изменить данные, на которые наложена X-блокировка транзакцией T2, ждет, а затем завершается по таймауту.
 
@@ -184,98 +184,98 @@ MVCC, уровень READ UNCOMMITTED, зависимость потерянно
 
 LOCK, уровень READ COMMITTED, зависимость фантомов
 
-    <table border="1">
-        <tr>
-            <th>T1</th>
-            <th>T2</th>
-        </tr>
-        <tr>
-            <td>
-                <span style="font-family:'Consolas', 'Courier New', monospace;">
-                    SET TRANSACTION ISOLATION LEVEL READ COMMITTED;
+<table border="1">
+    <tr>
+        <th>T1</th>
+        <th>T2</th>
+    </tr>
+    <tr>
+        <td>
+            <span style="font-family:'Consolas', 'Courier New', monospace;">
+                SET TRANSACTION ISOLATION LEVEL READ COMMITTED;
 
-                    BEGIN;
+                BEGIN;
 
-                    SELECT * FROM t WHERE i = 3 LOCK IN SHARE MODE;
+                SELECT * FROM t WHERE i = 3 LOCK IN SHARE MODE;
 
-                    +------+
+                +------+
 
-                    |&nbsp;i&nbsp;&nbsp;&nbsp;&nbsp;|
+                |&nbsp;i&nbsp;&nbsp;&nbsp;&nbsp;|
 
-                    +------+
+                +------+
 
-                    |&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;|
+                |&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;|
 
-                    +------+
+                +------+
 
-                    1 row in set (0.00 sec)
+                1 row in set (0.00 sec)
 
-                </span>
-            </td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>
-                <span style="font-family:'Consolas', 'Courier New', monospace;">
-                    BEGIN;
+            </span>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+            <span style="font-family:'Consolas', 'Courier New', monospace;">
+                BEGIN;
 
-                    INSERT INTO t VALUES (3);
+                INSERT INTO t VALUES (3);
 
-                    Query OK, 1 row affected (0.00 sec)
+                Query OK, 1 row affected (0.00 sec)
 
-                </span> 
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <span style="font-family:'Consolas', 'Courier New', monospace;">
-                    SELECT * FROM t WHERE i = 3 LOCK IN SHARE MODE;
+            </span> 
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <span style="font-family:'Consolas', 'Courier New', monospace;">
+                SELECT * FROM t WHERE i = 3 LOCK IN SHARE MODE;
 
-                </span>
-            </td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>
-                <span style="font-family:'Consolas', 'Courier New', monospace;">
-                    ожидание...
+            </span>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>
+            <span style="font-family:'Consolas', 'Courier New', monospace;">
+                ожидание...
 
-                </span>
-            </td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>
-                <span style="font-family:'Consolas', 'Courier New', monospace;">
-                    COMMIT;
+            </span>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+            <span style="font-family:'Consolas', 'Courier New', monospace;">
+                COMMIT;
 
-                </span>
-            </td>            
-        </tr>
-        <tr>
-            <td>
-                <span style="font-family:'Consolas', 'Courier New', monospace;">
-                    +------+
+            </span>
+        </td>            
+    </tr>
+    <tr>
+        <td>
+            <span style="font-family:'Consolas', 'Courier New', monospace;">
+                +------+
 
-                    |&nbsp;i&nbsp;&nbsp;&nbsp;&nbsp;|
+                |&nbsp;i&nbsp;&nbsp;&nbsp;&nbsp;|
 
-                    +------+
+                +------+
 
-                    |&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;|
+                |&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;|
 
-                    |&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;|
+                |&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;|
 
-                    +------+
+                +------+
 
-                    2 rows in set (0.00 sec)
+                2 rows in set (0.00 sec)
 
-                </span>
-            </td>
-            <td></td>
-        </tr>
-    </table>
+            </span>
+        </td>
+        <td></td>
+    </tr>
+</table>
 
 Вывод: фантомы допускаются, повторное выполнение запроса транзакцией T1 получает больший набор строк.
 
@@ -285,82 +285,82 @@ LOCK, уровень READ COMMITTED, зависимость фантомов
 
 Например, индивидуальный номер N = 35. Тогда номер варианта ((N - 1) mod 6) + 1 = ((35 – 1) mod 6) + 1 = (34 mod 6) + 1 = 4 + 1 = 5
 
-    <table border="1">
-        <tr>
-            <th>Вар
+<table border="1">
+    <tr>
+        <th>Вар
 иант</th>
-            <th>RU
+        <th>RU
 MVCC</th>
-            <th>RC
+        <th>RC
 MVCC</th>
-            <th>RR
+        <th>RR
 MVCC</th>
-            <th>RC
+        <th>RC
 LOCK</th>
-            <th>RR
+        <th>RR
 LOCK</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>+</td>
-            <td></td>
-            <td></td>
-            <td>+</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td></td>
-            <td>+</td>
-            <td></td>
-            <td></td>
-            <td>+</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td></td>
-            <td></td>
-            <td>+</td>
-            <td>+</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>+</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>+</td>
-        </tr>
-        <tr>
-            <td>5</td>
-            <td></td>
-            <td>+</td>
-            <td></td>
-            <td>+</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>6</td>
-            <td></td>
-            <td></td>
-            <td>+</td>
-            <td></td>
-            <td>+</td>
-        </tr>
-    </table>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>+</td>
+        <td></td>
+        <td></td>
+        <td>+</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td></td>
+        <td>+</td>
+        <td></td>
+        <td></td>
+        <td>+</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td></td>
+        <td></td>
+        <td>+</td>
+        <td>+</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>+</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>+</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td></td>
+        <td>+</td>
+        <td></td>
+        <td>+</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td></td>
+        <td></td>
+        <td>+</td>
+        <td></td>
+        <td>+</td>
+    </tr>
+</table>
 
 ### План выполнения
 
-    Создать с помощью скрипта, полученного в ЛР3, базу данных на сервере MySQL. В двух параллельно запущенных сеансах выполнить набор операторов SQL, позволяющий изучить взаимодействие одновременно выполняющихся транзакций при доступе к одним и тем же данным на заданных в индивидуальном варианте уровнях изоляции.
+Создать с помощью скрипта, полученного в ЛР3, базу данных на сервере MySQL. В двух параллельно запущенных сеансах выполнить набор операторов SQL, позволяющий изучить взаимодействие одновременно выполняющихся транзакций при доступе к одним и тем же данным на заданных в индивидуальном варианте уровнях изоляции.
 
 ### Содержание отчета
 
-    Титульный лист. Цель работы. Индивидуальный вариант задания. Снимок экрана реляционной схемы в Microsoft Access. Листинги скриптов SQL пар транзакций, анализирующих наличие/отсутствие проблем параллельного выполнения транзакций на разных уровнях изоляции с использованием разделяемых блокировок или мультиверсионностью. Выводы для каждого из листингов.
+Титульный лист. Цель работы. Индивидуальный вариант задания. Снимок экрана реляционной схемы в Microsoft Access. Листинги скриптов SQL пар транзакций, анализирующих наличие/отсутствие проблем параллельного выполнения транзакций на разных уровнях изоляции с использованием разделяемых блокировок или мультиверсионностью. Выводы для каждого из листингов.
 
 ### Вспомогательные материалы
 
-    [Транзакционная модель InnoDB](http://www.mysql.ru/docs/man/InnoDB_transaction_model.html)
+[Транзакционная модель InnoDB](http://www.mysql.ru/docs/man/InnoDB_transaction_model.html)
 
 ### Вопросы к защите
 
