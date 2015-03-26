@@ -39,7 +39,7 @@ __Важно__
 Практический курс по дисциплине включает 4 контрольных работы.
 
 1. [Реляционная алгебра](https://github.com/db2015ss/syllabus/blob/master/test1.md)
-* Теория нормализации
+* [Теория нормализации](https://github.com/db2015ss/syllabus/blob/master/test2.md)
 * SQL
 * Индексы
 
