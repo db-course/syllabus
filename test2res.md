@@ -22,8 +22,8 @@
     <td>Куликов</td>
   </tr>
   <tr>
-    <td rowspan="3"><br></td>
     <td>Токаревский<br></td>
+    <td rowspan="3"><br></td>
     <td>Масленникова</td>
   </tr>
   <tr>
