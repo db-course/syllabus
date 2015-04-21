@@ -28,7 +28,7 @@ __Важно__
 1. [Инфологическое моделирование предметной области](https://github.com/db2015ss/syllabus/blob/master/labwork1.md)
 * [Создание базы данных в СУБД Microsoft Access](https://github.com/db2015ss/syllabus/blob/master/labwork2.md)
 * [Создание базы данных в СУБД SQLite](https://github.com/db2015ss/syllabus/blob/master/labwork3.md)
-* Создание представлений на основании запросов на выборку в СУБД SQLite. Запросы на модификацию и удаление данных в СУБД SQLite
+* [Создание представлений на основании запросов на выборку в СУБД SQLite. Запросы на модификацию и удаление данных в СУБД SQLite](https://github.com/db2015ss/syllabus/blob/master/labwork4.md)
 * Создание триггеров в СУБД SQLite
 * [Управление транзакциями в СУБД MySQL](https://github.com/db2015ss/syllabus/blob/master/labwork6.md)
 
