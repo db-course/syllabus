@@ -150,7 +150,7 @@
 ### Вспомогательные материалы
 
 1. [Элементы модели "сущность-связь"](http://citforum.ru/database/dblearn/dblearn08.shtml)
-*  [Атомарность данных](http://www.basegroup.ru/glossary/definitions/atomic_data/)
+*  [Атомарность данных](https://basegroup.ru/community/glossary/atomic-data)
 
 ### Вопросы к защите
 
