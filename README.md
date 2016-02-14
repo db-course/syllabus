@@ -23,7 +23,7 @@ __Важно__
 
 __Важно__
 
-Для лабораторных работ 3-5 предусмотрена сдача в онлайн-формате на сайте GitHub. Инструкции [здесь](https://github.com/db2015ss/syllabus/blob/master/git.md).
+Для лабораторных работ 3-5 предусмотрена сдача в онлайн-формате на сайте GitHub. Инструкции [здесь](https://github.com/db2016ss/syllabus/blob/master/git.md).
 
 1. [Инфологическое моделирование предметной области](https://github.com/db2016ss/syllabus/blob/master/labworks/labwork1.md)
 * [Создание базы данных в СУБД Microsoft Access](https://github.com/db2016ss/syllabus/blob/master/labworks/labwork2.md)
