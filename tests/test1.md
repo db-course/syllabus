@@ -1,4 +1,4 @@
-[Назад к главной странице курса](https://github.com/db2016ss/syllabus)
+[Назад к главной странице курса](https://github.com/db2017ss/syllabus)
 
 ## 1. Реляционная алгебра
 
@@ -30,4 +30,4 @@
 1. [Реляционная алгебра](http://citforum.ru/database/dblearn/dblearn04.shtml)
 2. [Шпаргалка по операциям реляционной алгебры](https://www.dropbox.com/s/ocqp664cjpbri9l/rel_alg.pdf?dl=0)
 
-[Назад к главной странице курса](https://github.com/db2016ss/syllabus)
+[Назад к главной странице курса](https://github.com/db2017ss/syllabus)

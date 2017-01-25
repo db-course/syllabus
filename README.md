@@ -1,16 +1,5 @@
 # Курс Базы данных
-### весенний семестр 2016 года, СПбГУАП, кафедра 44
-
-* [Требования к допуску и проведение экзамена](https://github.com/db2016ss/syllabus/blob/master/exam/exam.md)
-* [Быстрые вопросы к экзамену](https://github.com/db2016ss/syllabus/blob/master/exam/fast.md)
-* [Теоретические вопросы к экзамену](https://github.com/db2016ss/syllabus/blob/master/exam/theory.md)
-* [Практические вопросы к экзамену](https://github.com/db2016ss/syllabus/blob/master/exam/practice.md)
-
-__Важно__
-
-Если у вас есть какие-то вопросы, можно задавать их, создавая issue к этому репозиторию. Как создавать issue, [описано в указаниях по регистрации в организации](https://github.com/db2016ss/students). Также можно отвечать на вопросы однокурсников, заданные в виде issue, а также уведомлять преподавателя об ошибках или неточностях в системе приема/сдачи лабораторных работ. И то, и другое будет расценено как помощь в организации курса и учтено при аттестации.
-
------
+### весенний семестр 2017 года, СПбГУАП, кафедра 44
 
 ## Содержание теоретического курса
 
@@ -28,14 +17,14 @@ __Важно__
 
 __Важно__
 
-Для лабораторных работ 3-5 предусмотрена сдача в онлайн-формате на сайте GitHub. Инструкции [здесь](https://github.com/db2016ss/syllabus/blob/master/git.md).
+Для лабораторных работ 3-5 предусмотрена сдача в онлайн-формате на сайте GitHub. Инструкции [здесь](https://github.com/db2017ss/syllabus/blob/master/git.md).
 
-1. [Инфологическое моделирование предметной области](https://github.com/db2016ss/syllabus/blob/master/labworks/labwork1.md)
-* [Создание базы данных в СУБД Microsoft Access](https://github.com/db2016ss/syllabus/blob/master/labworks/labwork2.md)
-* [Создание базы данных в СУБД SQLite](https://github.com/db2016ss/syllabus/blob/master/labworks/labwork3.md) ([репозиторий](https://github.com/db2016ss/labwork3))
-* [Создание представлений на основании запросов на выборку в СУБД SQLite. Запросы на модификацию и удаление данных в СУБД SQLite](https://github.com/db2016ss/syllabus/blob/master/labworks/labwork4.md) ([репозиторий](https://github.com/db2016ss/labwork4))
-* [Создание триггеров в СУБД SQLite](https://github.com/db2016ss/syllabus/blob/master/labworks/labwork5.md) ([репозиторий](https://github.com/db2016ss/labwork5))
-* [Управление транзакциями в СУБД MySQL](https://github.com/db2016ss/syllabus/blob/master/labworks/labwork6.md)
+1. [Инфологическое моделирование предметной области](https://github.com/db2017ss/syllabus/blob/master/labworks/labwork1.md)
+* [Создание базы данных в СУБД Microsoft Access](https://github.com/db2017ss/syllabus/blob/master/labworks/labwork2.md)
+* [Создание базы данных в СУБД SQLite](https://github.com/db2017ss/syllabus/blob/master/labworks/labwork3.md) ([репозиторий](https://github.com/db2017ss/labwork3))
+* [Создание представлений на основании запросов на выборку в СУБД SQLite. Запросы на модификацию и удаление данных в СУБД SQLite](https://github.com/db2017ss/syllabus/blob/master/labworks/labwork4.md) ([репозиторий](https://github.com/db2017ss/labwork4))
+* [Создание триггеров в СУБД SQLite](https://github.com/db2017ss/syllabus/blob/master/labworks/labwork5.md) ([репозиторий](https://github.com/db2017ss/labwork5))
+* [Управление транзакциями в СУБД MySQL](https://github.com/db2017ss/syllabus/blob/master/labworks/labwork6.md)
 
 -----
 
@@ -43,10 +32,10 @@ __Важно__
 
 Практический курс по дисциплине включает 4 контрольных работы.
 
-1. [Реляционная алгебра](https://github.com/db2016ss/syllabus/blob/master/tests/test1.md)
-* [Теория нормализации](https://github.com/db2016ss/syllabus/blob/master/tests/test2.md)
-* [SQL](https://github.com/db2016ss/syllabus/blob/master/tests/test3.md)
-* ~~Индексы~~ :cry:
+1. [Реляционная алгебра](https://github.com/db2017ss/syllabus/blob/master/tests/test1.md)
+* [Теория нормализации](https://github.com/db2017ss/syllabus/blob/master/tests/test2.md)
+* [SQL](https://github.com/db2017ss/syllabus/blob/master/tests/test3.md)
+* Индексы
 
 -----
 

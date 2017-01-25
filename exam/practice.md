@@ -1,6 +1,6 @@
-[Назад к главной странице курса](https://github.com/db2016ss/syllabus)
+[Назад к главной странице курса](https://github.com/db2017ss/syllabus)
 
-[Назад к требованиям к экзамену](https://github.com/db2016ss/syllabus/blob/master/exam/exam.md)
+[Назад к требованиям к экзамену](https://github.com/db2017ss/syllabus/blob/master/exam/exam.md)
 
 ### Практические вопросы к экзамену по курсу «Базы данных», группы 424x, весна 2015
 
@@ -11,6 +11,6 @@
 5. Реализовать в SQL полное внешнее соединение с использованием объединения.
 6. Реализовать эквивалентные запросы с помощью EXCEPT, NOT IN и NOT EXISTS.
 
-[Назад к требованиям к экзамену](https://github.com/db2016ss/syllabus/blob/master/exam/exam.md)
+[Назад к требованиям к экзамену](https://github.com/db2017ss/syllabus/blob/master/exam/exam.md)
 
-[Назад к главной странице курса](https://github.com/db2016ss/syllabus)
+[Назад к главной странице курса](https://github.com/db2017ss/syllabus)
