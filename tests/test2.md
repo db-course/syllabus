@@ -72,6 +72,6 @@
 1. [Проектирование реляционных баз данных с использованием нормализации](http://citforum.ru/database/osbd/glava_23.shtml)
 2. [Нормальные формы отношений](http://citforum.ru/database/dblearn/dblearn06.shtml)
 3. [Нормальные формы более высоких порядков](http://citforum.ru/database/dblearn/dblearn07.shtml)
-4. [Образец задания по контрольной работе](https://www.dropbox.com/s/89sg35j5tupy793/kr2example.pdf?dl=0)
+4. [Образец задания по контрольной работе](https://www.dropbox.com/s/kirfsqfq5a7lg3g/kr2example.pdf?dl=0)
 
 [Назад к главной странице курса](https://github.com/db2017ss/syllabus)
