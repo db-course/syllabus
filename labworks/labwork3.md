@@ -62,7 +62,7 @@ __Внимание!__
 
 ### Вспомогательные материалы
 
-1. [Учебное пособие по работе с SQLite в SQLiteSpy](https://www.dropbox.com/s/p24ewmuryv46a4i/SQLite.pdf)
+1. [Учебное пособие по работе с SQLite в SQLiteSpy](https://www.dropbox.com/s/pfxpdfz5j4bpaty/SQLite.pdf)
 
 ### Вопросы к защите
 
