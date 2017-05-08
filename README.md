@@ -35,7 +35,7 @@ __Важно__
 1. [Реляционная алгебра](https://github.com/db2017ss/syllabus/blob/master/tests/test1.md)
 1. [Теория нормализации](https://github.com/db2017ss/syllabus/blob/master/tests/test2.md)
 1. [SQL](https://github.com/db2017ss/syllabus/blob/master/tests/test3.md)
-1. Индексы
+1. [Индексы](https://github.com/db2017ss/syllabus/blob/master/tests/test4.md)
 
 -----
 
