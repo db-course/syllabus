@@ -1,4 +1,4 @@
-[Назад к главной странице курса](https://github.com/db2017ss/syllabus)
+[Назад к главной странице курса](https://github.com/db2018ss/syllabus)
 
 ## 3. SQL
 
@@ -27,4 +27,4 @@
 
 1. [Интерактивный учебник по SQL. Оператор SELECT](http://www.sql-tutorial.ru/ru/book_select_statement.html)
 
-[Назад к главной странице курса](https://github.com/db2017ss/syllabus)
+[Назад к главной странице курса](https://github.com/db2018ss/syllabus)

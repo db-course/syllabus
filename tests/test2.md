@@ -1,4 +1,4 @@
-[Назад к главной странице курса](https://github.com/db2017ss/syllabus)
+[Назад к главной странице курса](https://github.com/db2018ss/syllabus)
 
 ## 2. Теория нормализации
 
@@ -74,4 +74,4 @@
 3. [Нормальные формы более высоких порядков](http://citforum.ru/database/dblearn/dblearn07.shtml)
 4. [Образец задания по контрольной работе](https://www.dropbox.com/s/kirfsqfq5a7lg3g/kr2example.pdf?dl=0)
 
-[Назад к главной странице курса](https://github.com/db2017ss/syllabus)
+[Назад к главной странице курса](https://github.com/db2018ss/syllabus)

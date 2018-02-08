@@ -1,4 +1,4 @@
-[Назад к главной странице курса](https://github.com/db2017ss/syllabus)
+[Назад к главной странице курса](https://github.com/db2018ss/syllabus)
 
 ## 4. Индексы
 
@@ -28,4 +28,4 @@
 
 1. [Образец задания по контрольной работе](https://www.dropbox.com/s/ozvtd6r2dzibqpr/kr4example.pdf?dl=0)
 
-[Назад к главной странице курса](https://github.com/db2017ss/syllabus)
+[Назад к главной странице курса](https://github.com/db2018ss/syllabus)

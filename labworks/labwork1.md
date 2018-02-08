@@ -1,4 +1,4 @@
-[Назад к главной странице курса](https://github.com/db2017ss/syllabus)
+[Назад к главной странице курса](https://github.com/db2018ss/syllabus)
 
 ## 1. Инфологическое моделирование предметной области
 
@@ -39,7 +39,7 @@
 
 Исходная сущность:
 
-![](https://github.com/db2017ss/syllabus/blob/master/img/stud1.png)
+![](https://github.com/db2018ss/syllabus/blob/master/img/stud1.png)
 
 | Nзач |          ФИО         |
 |:----:|:--------------------:|
@@ -47,7 +47,7 @@
 
 Преобразованная сущность:
 
-![](https://github.com/db2017ss/syllabus/blob/master/img/stud2.png)
+![](https://github.com/db2018ss/syllabus/blob/master/img/stud2.png)
 
 | Nзач | Фамилия | Имя  | Отчество |
 |:----:|:-------:|------|----------|
@@ -57,7 +57,7 @@
 
 Исходная сущность:
 
-![](https://github.com/db2017ss/syllabus/blob/master/img/sotr1.png)
+![](https://github.com/db2018ss/syllabus/blob/master/img/sotr1.png)
 
 | Фамилия |              Телефоны              |
 |:-------:|:----------------------------------:|
@@ -65,7 +65,7 @@
 
 Преобразованная сущность:
 
-![](https://github.com/db2017ss/syllabus/blob/master/img/sotr2.png)
+![](https://github.com/db2018ss/syllabus/blob/master/img/sotr2.png)
 
 | Фамилия |      Телефон     |
 |:-------:|:----------------:|
@@ -78,7 +78,7 @@
 
 Исходная сущность:
 
-![](https://github.com/db2017ss/syllabus/blob/master/img/film1.png)
+![](https://github.com/db2018ss/syllabus/blob/master/img/film1.png)
 
 |    Фильм    |                  Актерский состав                  |
 |:-----------:|:--------------------------------------------------:|
@@ -86,7 +86,7 @@
 
 Преобразованные сущности:
 
-![](https://github.com/db2017ss/syllabus/blob/master/img/film2.png)
+![](https://github.com/db2018ss/syllabus/blob/master/img/film2.png)
 
 |    Фильм    |
 |:-----------:|
@@ -179,4 +179,4 @@
 *   Что такое внешний ключ в реляционной модели?
 *   В чем отличие двух внешних ключей a и b от составного внешнего ключа (a, b)?
 
-[Назад к главной странице курса](https://github.com/db2017ss/syllabus)
+[Назад к главной странице курса](https://github.com/db2018ss/syllabus)
