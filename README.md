@@ -3,11 +3,11 @@
 
 ## Содержание теоретического курса
 
-* Введение в реляционные базы данных
-* Реляционная алгебра
-* Теория нормализации
-* SQL
-* Обработка транзакций
+* [Введение в реляционные базы данных](http://aksenov.in/guap/db/lectures/doku.php?id=lectures:lecture1)
+* [Реляционная алгебра](http://aksenov.in/guap/db/lectures/doku.php?id=lectures:lecture2)
+* [Теория нормализации](http://aksenov.in/guap/db/lectures/doku.php?id=lectures:lecture3)
+* [SQL](http://aksenov.in/guap/db/lectures/doku.php?id=lectures:lecture4)
+* [Обработка транзакций](http://aksenov.in/guap/db/lectures/doku.php?id=lectures:lecture5)
 
 -----
 
