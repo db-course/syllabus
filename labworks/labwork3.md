@@ -8,7 +8,7 @@
 
 ### Теоретические сведения
 
-Предварительно ознакомиться: [материалы лекции по командам CREATE TABLE и INSERT](aksenov.in/guap/db/lectures/doku.php?id=lectures:lecture4).
+Предварительно ознакомиться: [материалы лекции по командам CREATE TABLE и INSERT](http://aksenov.in/guap/db/lectures/doku.php?id=lectures:lecture4).
 
 При выполнении данной работы настоятельно рекомендуется пользоваться сведениями из учебного пособия по SQLite [1].
 
