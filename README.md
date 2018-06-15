@@ -1,6 +1,10 @@
 # Курс Базы данных
 ### весенний семестр 2018 года, СПбГУАП, кафедра 44
 
+[Порядок проведения экзамена и требования для допуска](https://github.com/db2017ss/syllabus/blob/master/exam/exam.md)
+
+Вопросы для [первого этапа](https://github.com/db2017ss/syllabus/blob/master/exam/fast.md), [второго этапа](https://github.com/db2017ss/syllabus/blob/master/exam/theory.md), [третьего этапа](https://github.com/db2017ss/syllabus/blob/master/exam/practice.md)
+
 ## Содержание теоретического курса
 
 * [Введение в реляционные базы данных](http://aksenov.in/guap/db/lectures/doku.php?id=lectures:lecture1)
