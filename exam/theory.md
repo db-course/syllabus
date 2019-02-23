@@ -1,6 +1,6 @@
-[Назад к главной странице курса](https://github.com/db2018ss/syllabus)
+[Назад к главной странице курса](https://github.com/db-course/syllabus)
 
-[Назад к требованиям к экзамену](https://github.com/db2018ss/syllabus/blob/master/exam/exam.md)
+[Назад к требованиям к экзамену](https://github.com/db-course/syllabus/blob/master/exam/exam.md)
 
 ### Теоретические вопросы к экзамену по курсу «Базы данных», группы 454x, весна 2018
 
@@ -76,6 +76,6 @@
 
 36. MongoDB. Принципы организации и хранения данных. CRUD-операции. 
 
-[Назад к требованиям к экзамену](https://github.com/db2018ss/syllabus/blob/master/exam/exam.md)
+[Назад к требованиям к экзамену](https://github.com/db-course/syllabus/blob/master/exam/exam.md)
 
-[Назад к главной странице курса](https://github.com/db2018ss/syllabus)
+[Назад к главной странице курса](https://github.com/db-course/syllabus)

@@ -1,4 +1,4 @@
-[Назад к главной странице курса](https://github.com/db2018ss/syllabus)
+[Назад к главной странице курса](https://github.com/db-course/syllabus)
 
 ## 3. SQL
 
@@ -8,7 +8,7 @@
 
 ### Содержание контрольной работы
 
-Предварительно ознакомиться: [материалы лекций по оператору SELECT](http://aksenov.in/guap/db/lectures/doku.php?id=lectures:lecture4).
+Предварительно ознакомиться: [материалы лекций по оператору SELECT](https://aksenov.in/guap/db/lectures/doku.php?id=lectures:lecture4).
 
 Контрольная работа заключается в написании заданных запросов на языке SQL [1] к заданной схеме данных. Всего в каждом индивидуальном варианте дано 2 схемы данных, состоящих из нескольких таблиц, и по 5 запросов к каждой из них.
 
@@ -27,4 +27,4 @@
 
 1. [Интерактивный учебник по SQL. Оператор SELECT](http://www.sql-tutorial.ru/ru/book_select_statement.html)
 
-[Назад к главной странице курса](https://github.com/db2018ss/syllabus)
+[Назад к главной странице курса](https://github.com/db-course/syllabus)
