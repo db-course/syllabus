@@ -307,7 +307,7 @@ _Решение_. Использовать reset, также как и в пре
 ### Материалы на русском языке для самостоятельного углубленного изучения
 
 * https://githowto.com/ru
-* https://git-scm.com/book/ru/v1
+* https://git-scm.com/book/ru/v2/
 * http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/ru/
 * https://tproger.ru/translations/most-common-git-screwupsquestions-and-solutions/
 
