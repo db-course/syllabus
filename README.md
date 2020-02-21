@@ -1,12 +1,12 @@
 # Курс Базы данных
-### весенний семестр 2019 года, СПбГУАП, кафедра 44
+### весенний семестр 2020 года, СПбГУАП, кафедра 44
 
-[Требования к допуску и порядок аттестации](https://github.com/db-course/syllabus/blob/master/exam/exam.md)
+<!-- [Требования к допуску и порядок аттестации](https://github.com/db-course/syllabus/blob/master/exam/exam.md)
 
 Списки вопросов:
 * [Быстрого этапа](https://github.com/db-course/syllabus/blob/master/exam/theory.md)
 * [Основного этапа](https://github.com/db-course/syllabus/blob/master/exam/theory.md)
-* [Практического этапа](https://github.com/db-course/syllabus/blob/master/exam/practice.md)
+* [Практического этапа](https://github.com/db-course/syllabus/blob/master/exam/practice.md) -->
 
 ## Содержание теоретического курса
 
