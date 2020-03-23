@@ -39,7 +39,7 @@ __Важно__
 
 Практический курс по дисциплине включает 4 контрольных работы.
 
-1. [Реляционная алгебра](https://github.com/db-course/syllabus/blob/master/tests/test1.md)
+1. [Реляционная алгебра](https://github.com/db-course/syllabus/blob/master/tests/test1.md) ([репозиторий](https://github.com/db-course/rel_algebra))
 1. [Теория нормализации](https://github.com/db-course/syllabus/blob/master/tests/test2.md)
 1. [SQL](https://github.com/db-course/syllabus/blob/master/tests/test3.md)
 1. [Индексы](https://github.com/db-course/syllabus/blob/master/tests/test4.md)
