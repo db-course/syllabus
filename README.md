@@ -4,9 +4,15 @@
 <!-- [Требования к допуску и порядок аттестации](https://github.com/db-course/syllabus/blob/master/exam/exam.md)
 
 Списки вопросов:
-* [Быстрого этапа](https://github.com/db-course/syllabus/blob/master/exam/theory.md)
+* [Быстрого этапа](https://github.com/db-course/syllabus/blob/master/exam/fast.md)
 * [Основного этапа](https://github.com/db-course/syllabus/blob/master/exam/theory.md)
 * [Практического этапа](https://github.com/db-course/syllabus/blob/master/exam/practice.md) -->
+
+[Дистанционная аттестация июнь 2020](https://github.com/db-course/syllabus/blob/master/exam/covid.md)
+
+Списки вопросов:
+* [Быстрого этапа](https://github.com/db-course/syllabus/blob/master/exam/fast.md)
+* [Теоретического этапа](https://github.com/db-course/syllabus/blob/master/exam/theory.md)
 
 ## Содержание теоретического курса
 

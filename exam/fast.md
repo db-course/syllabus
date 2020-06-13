@@ -1,9 +1,8 @@
 [Назад к главной странице курса](https://github.com/db-course/syllabus)
 
-[Назад к требованиям к экзамену](https://github.com/db-course/syllabus/blob/master/exam/exam.md)
+[Назад к требованиям к экзамену](https://github.com/db-course/syllabus/blob/master/exam/covid.md)
 
 ### Быстрые вопросы к экзамену по курсу «Базы данных»
-
 
 * Что произойдет, если в операции UPDATE не указано условие фильтрации строк? Приведите пример. Что произойдет, если в операции DELETE не указано условие фильтрации строк? Приведите пример.
 
@@ -145,6 +144,6 @@
 
 * Что произойдет, если в параметрах оператора INSERT указать меньше колонок, чем есть в таблице? Приведите пример.
 
-[Назад к требованиям к экзамену](https://github.com/db-course/syllabus/blob/master/exam/exam.md)
+[Назад к требованиям к экзамену](https://github.com/db-course/syllabus/blob/master/exam/covid.md)
 
 [Назад к главной странице курса](https://github.com/db-course/syllabus)
