@@ -1,5 +1,5 @@
 # Курс Базы данных
-### весенний семестр 2020 года, СПбГУАП, кафедра 44
+### весенний семестр 2021 года, СПбГУАП, кафедра 44
 
 <!-- [Требования к допуску и порядок аттестации](https://github.com/db-course/syllabus/blob/master/exam/exam.md)
 
@@ -8,18 +8,13 @@
 * [Основного этапа](https://github.com/db-course/syllabus/blob/master/exam/theory.md)
 * [Практического этапа](https://github.com/db-course/syllabus/blob/master/exam/practice.md) -->
 
-[Дистанционная аттестация июнь 2020](https://github.com/db-course/syllabus/blob/master/exam/covid.md)
-
-Списки вопросов:
-* [Быстрого этапа](https://github.com/db-course/syllabus/blob/master/exam/fast.md)
-* [Теоретического этапа](https://github.com/db-course/syllabus/blob/master/exam/theory.md)
-
 ## Содержание теоретического курса
 
 * [Введение в реляционные базы данных](https://aksenov.in/guap/db/lectures/doku.php?id=lectures:lecture1)
 * [Реляционная алгебра](https://aksenov.in/guap/db/lectures/doku.php?id=lectures:lecture2)
 * [Теория нормализации](https://aksenov.in/guap/db/lectures/doku.php?id=lectures:lecture3)
 * [SQL](https://aksenov.in/guap/db/lectures/doku.php?id=lectures:lecture4)
+* [Методы организации индексов](https://aksenov.in/guap/db/lectures/doku.php?id=lectures:lecture6)
 * [Обработка транзакций](https://aksenov.in/guap/db/lectures/doku.php?id=lectures:lecture5)
 
 -----
@@ -43,11 +38,12 @@ __Важно__
 
 ## Содержание практического курса
 
-Практический курс по дисциплине включает 3 контрольных работы.
+Практический курс по дисциплине включает 4 контрольных работы.
 
-1. [Реляционная алгебра](https://github.com/db-course/syllabus/blob/master/tests/test1.md) ([репозиторий](https://github.com/db-course/rel_algebra))
+1. [Реляционная алгебра](https://github.com/db-course/syllabus/blob/master/tests/test1.md) <!-- ([репозиторий](https://github.com/db-course/rel_algebra)) -->
 1. [Теория нормализации](https://github.com/db-course/syllabus/blob/master/tests/test2.md)
-1. [SQL](https://github.com/db-course/syllabus/blob/master/tests/test3.md) ([репозиторий](https://github.com/db-course/sql))
+1. [SQL](https://github.com/db-course/syllabus/blob/master/tests/test3.md) <!-- ([репозиторий](https://github.com/db-course/sql)) -->
+1. [Индексы](https://github.com/db-course/syllabus/blob/master/tests/test4.md)
 
 -----
 
