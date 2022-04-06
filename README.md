@@ -1,5 +1,5 @@
 # Курс Базы данных
-### весенний семестр 2021 года, СПбГУАП, кафедра 44
+### весенний семестр 2022 года, СПбГУАП, кафедра 44
 
 <!-- [Требования к допуску и порядок аттестации](https://github.com/db-course/syllabus/blob/master/exam/exam.md)
 
@@ -25,7 +25,7 @@
 
 __Важно__
 
-Для лабораторных работ 3-5 предусмотрена сдача в онлайн-формате на сайте GitHub. Инструкции [здесь](https://github.com/db-course/syllabus/blob/master/git.md).
+Для лабораторных работ 3-5 предусмотрена сдача в онлайн-формате на сайте GitHub. Инструкции [здесь](https://github.com/db-course/syllabus/blob/master/git.md). Для доступа к репозиториям лабораторных работ требуется быть членом организации db-course.
 
 1. [Инфологическое моделирование предметной области](https://github.com/db-course/syllabus/blob/master/labworks/labwork1.md)
 1. [Создание базы данных в СУБД Microsoft Access](https://github.com/db-course/syllabus/blob/master/labworks/labwork2.md)
@@ -38,14 +38,14 @@ __Важно__
 
 ## Содержание практического курса
 
-Практический курс по дисциплине включает 4 контрольных работы.
+Практический курс по дисциплине включает 3 контрольных работы.
 
 1. [Реляционная алгебра](https://github.com/db-course/syllabus/blob/master/tests/test1.md) <!-- ([репозиторий](https://github.com/db-course/rel_algebra)) -->
 1. [Теория нормализации](https://github.com/db-course/syllabus/blob/master/tests/test2.md)
 1. [SQL](https://github.com/db-course/syllabus/blob/master/tests/test3.md) <!-- ([репозиторий](https://github.com/db-course/sql)) -->
-1. [Индексы](https://github.com/db-course/syllabus/blob/master/tests/test4.md)
+<!-- 1. [Индексы](https://github.com/db-course/syllabus/blob/master/tests/test4.md) -->
 
------
+<!-- -----
 
 ## Примерный график изучения дисциплины
 
@@ -57,4 +57,4 @@ __Важно__
 | начало апреля | SQL SELECT                  | 3 (SQL DML)       |                         |
 | конец апреля  | SQL триггеры                | 4 (SQL SELECT)    | 3 (SQL)                 |
 | начало мая    | индексы                     | 5 (SQL триггеры)  |                         |
-| конец мая     | транзакции                  | 6 (транзакции)    | 4 (индексы)             |
+| конец мая     | транзакции                  | 6 (транзакции)    | 4 (индексы)             | -->
