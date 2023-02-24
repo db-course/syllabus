@@ -1,5 +1,5 @@
 # Курс Базы данных
-### весенний семестр 2022 года, СПбГУАП, кафедра 44
+### весенний семестр 2023 года, СПбГУАП, кафедра 44
 
 <!-- [Требования к допуску и порядок аттестации](https://github.com/db-course/syllabus/blob/master/exam/exam.md)
 
@@ -25,13 +25,13 @@
 
 __Важно__
 
-Для лабораторных работ 3-5 предусмотрена сдача в онлайн-формате на сайте GitHub. Инструкции [здесь](https://github.com/db-course/syllabus/blob/master/git.md). Для доступа к репозиториям лабораторных работ требуется быть членом организации db-course.
+Для лабораторных работ предусмотрена сдача в онлайн-формате на GitHub. Инструкции [здесь](https://github.com/db-course/syllabus/blob/master/git.md). Для доступа к репозиториям лабораторных работ требуется быть членом организации db-course.
 
 1. [Инфологическое моделирование предметной области](https://github.com/db-course/syllabus/blob/master/labworks/labwork1.md)
 1. [Создание базы данных в СУБД Microsoft Access](https://github.com/db-course/syllabus/blob/master/labworks/labwork2.md)
-1. [Создание базы данных в СУБД SQLite](https://github.com/db-course/syllabus/blob/master/labworks/labwork3.md) ([репозиторий](https://github.com/db-course/labwork3))
-1. [Создание представлений на основании запросов на выборку в СУБД SQLite. Запросы на модификацию и удаление данных в СУБД SQLite](https://github.com/db-course/syllabus/blob/master/labworks/labwork4.md) ([репозиторий](https://github.com/db-course/labwork4))
-1. [Создание триггеров в СУБД SQLite](https://github.com/db-course/syllabus/blob/master/labworks/labwork5.md) ([репозиторий](https://github.com/db-course/labwork5))
+1. [Создание базы данных в СУБД SQLite](https://github.com/db-course/syllabus/blob/master/labworks/labwork3.md)<!--  ([репозиторий](https://github.com/db-course/labwork3)) -->
+1. [Создание представлений на основании запросов на выборку в СУБД SQLite. Запросы на модификацию и удаление данных в СУБД SQLite](https://github.com/db-course/syllabus/blob/master/labworks/labwork4.md)<!--([репозиторий](https://github.com/db-course/labwork4)) -->
+1. [Создание триггеров в СУБД SQLite](https://github.com/db-course/syllabus/blob/master/labworks/labwork5.md)<!-- ([репозиторий](https://github.com/db-course/labwork5)) -->
 1. [Управление транзакциями в СУБД MySQL](https://github.com/db-course/syllabus/blob/master/labworks/labwork6.md)
 
 -----
