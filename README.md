@@ -13,19 +13,18 @@
 * [Введение в реляционные базы данных](https://aksenov.in/guap/db/lectures/doku.php?id=lectures:lecture1)
 * [Реляционная алгебра](https://aksenov.in/guap/db/lectures/doku.php?id=lectures:lecture2)
 * [Теория нормализации](https://aksenov.in/guap/db/lectures/doku.php?id=lectures:lecture3)
-* [SQL](https://aksenov.in/guap/db/lectures/doku.php?id=lectures:lecture4)
-<!-- * [Методы организации индексов](https://aksenov.in/guap/db/lectures/doku.php?id=lectures:lecture6) -->
+* [SQL](https://aksenov.in/guap/db/lectures/doku.php?id=lectures:lecture4)<!-- * [Методы организации индексов](https://aksenov.in/guap/db/lectures/doku.php?id=lectures:lecture6) -->
 * [Обработка транзакций](https://aksenov.in/guap/db/lectures/doku.php?id=lectures:lecture5)
 
 -----
 
 ## Содержание лабораторного курса
 
-Лабораторный курс по дисциплине включает 6 лабораторных работ.
-
 __Важно__
 
-Для лабораторных работ предусмотрена сдача в онлайн-формате на GitHub. [Инструкции](https://github.com/db-course/syllabus/blob/master/git.md). Для доступа к репозиториям лабораторных работ требуется быть членом организации `db-course` и выполнить [ЛР0](https://github.com/db-course/lab0)
+Для лабораторных работ предусмотрена сдача на GitHub. Для доступа к репозиториям лабораторных работ требуется быть членом организации `db-course` и выполнить ЛР0. См. ([инструкции](https://github.com/db-course/syllabus/blob/master/git.md)).
+
+Лабораторный курс по дисциплине включает 6 лабораторных работ.
 
 1. [Инфологическое моделирование предметной области](https://github.com/db-course/syllabus/blob/master/labs/lab1.md)
 1. [Создание базы данных в СУБД Microsoft Access](https://github.com/db-course/syllabus/blob/master/labs/lab2.md)
