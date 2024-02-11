@@ -14,7 +14,7 @@
 * [Реляционная алгебра](https://aksenov.in/guap/db/lectures/doku.php?id=lectures:lecture2)
 * [Теория нормализации](https://aksenov.in/guap/db/lectures/doku.php?id=lectures:lecture3)
 * [SQL](https://aksenov.in/guap/db/lectures/doku.php?id=lectures:lecture4)
-* [Методы организации индексов](https://aksenov.in/guap/db/lectures/doku.php?id=lectures:lecture6)
+<!-- * [Методы организации индексов](https://aksenov.in/guap/db/lectures/doku.php?id=lectures:lecture6) -->
 * [Обработка транзакций](https://aksenov.in/guap/db/lectures/doku.php?id=lectures:lecture5)
 
 -----
@@ -25,14 +25,14 @@
 
 __Важно__
 
-Для лабораторных работ предусмотрена сдача в онлайн-формате на GitHub. Инструкции [здесь](https://github.com/db-course/syllabus/blob/master/git.md). Для доступа к репозиториям лабораторных работ требуется быть членом организации db-course.
+Для лабораторных работ предусмотрена сдача в онлайн-формате на GitHub. [Инструкции](https://github.com/db-course/syllabus/blob/master/git.md). Для доступа к репозиториям лабораторных работ требуется быть членом организации `db-course` и выполнить [ЛР0](https://github.com/db-course/lab0)
 
-1. [Инфологическое моделирование предметной области](https://github.com/db-course/syllabus/blob/master/labworks/labwork1.md)
-1. [Создание базы данных в СУБД Microsoft Access](https://github.com/db-course/syllabus/blob/master/labworks/labwork2.md)
-1. [Создание базы данных в СУБД SQLite](https://github.com/db-course/syllabus/blob/master/labworks/labwork3.md)<!--  ([репозиторий](https://github.com/db-course/labwork3)) -->
-1. [Создание представлений на основании запросов на выборку в СУБД SQLite. Запросы на модификацию и удаление данных в СУБД SQLite](https://github.com/db-course/syllabus/blob/master/labworks/labwork4.md)<!--([репозиторий](https://github.com/db-course/labwork4)) -->
-1. [Создание триггеров в СУБД SQLite](https://github.com/db-course/syllabus/blob/master/labworks/labwork5.md)<!-- ([репозиторий](https://github.com/db-course/labwork5)) -->
-1. [Управление транзакциями в СУБД MySQL](https://github.com/db-course/syllabus/blob/master/labworks/labwork6.md)
+1. [Инфологическое моделирование предметной области](https://github.com/db-course/syllabus/blob/master/labs/lab1.md)
+1. [Создание базы данных в СУБД Microsoft Access](https://github.com/db-course/syllabus/blob/master/labs/lab2.md)
+1. [Создание базы данных в СУБД SQLite](https://github.com/db-course/syllabus/blob/master/labs/lab3.md)
+1. [Создание представлений на основании запросов на выборку в СУБД SQLite. Запросы на модификацию и удаление данных в СУБД SQLite](https://github.com/db-course/syllabus/blob/master/labs/lab4.md)
+1. [Создание триггеров в СУБД SQLite](https://github.com/db-course/syllabus/blob/master/labs/lab5.md)
+1. [Управление транзакциями в СУБД MySQL](https://github.com/db-course/syllabus/blob/master/labs/lab6.md)
 
 -----
 
@@ -40,9 +40,9 @@ __Важно__
 
 Практический курс по дисциплине включает 3 контрольных работы.
 
-1. [Реляционная алгебра](https://github.com/db-course/syllabus/blob/master/tests/test1.md) <!-- ([репозиторий](https://github.com/db-course/rel_algebra)) -->
+1. [Реляционная алгебра](https://github.com/db-course/syllabus/blob/master/tests/test1.md)
 1. [Теория нормализации](https://github.com/db-course/syllabus/blob/master/tests/test2.md)
-1. [SQL](https://github.com/db-course/syllabus/blob/master/tests/test3.md) <!-- ([репозиторий](https://github.com/db-course/sql)) -->
+1. [SQL](https://github.com/db-course/syllabus/blob/master/tests/test3.md)
 <!-- 1. [Индексы](https://github.com/db-course/syllabus/blob/master/tests/test4.md) -->
 
 <!-- -----
