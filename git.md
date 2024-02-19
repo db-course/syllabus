@@ -66,7 +66,7 @@ git config --global user.email
 
 ![Fork](https://github.com/db-course/syllabus/blob/master/img/fork.png)
 
-В открвшемся окне нужно убедиться, что в поле Owner (Владелец) указан ваш аккаунт на GitHub, все остальные настройки можно оставить по умолчанию, после чего нажать кнопку Create fork. 
+В открывшемся окне нужно убедиться, что в поле Owner (Владелец) указан ваш аккаунт на GitHub, все остальные настройки можно оставить по умолчанию, после чего нажать кнопку Create fork. 
 
 ![Preforking](https://github.com/db-course/syllabus/blob/master/img/preforking.png)
 
