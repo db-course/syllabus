@@ -8,7 +8,7 @@
 
 ### Теоретические сведения
 
-Предварительно ознакомиться: [материалы лекций по командам SELECT, UPDATE и DELETE](https://aksenov.in/guap/db/lectures/doku.php?id=lectures:lecture4).
+Предварительно ознакомиться: [материалы лекций по командам SELECT, UPDATE и DELETE](https://guap.aksenov.in/db/lectures/doku.php?id=lectures:lecture4).
 
 При выполнении данной работы настоятельно рекомендуется пользоваться сведениями из учебного пособия по SQLite [1].
 

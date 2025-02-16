@@ -10,11 +10,11 @@
 
 ## Содержание теоретического курса
 
-* [Введение в реляционные базы данных](https://aksenov.in/guap/db/lectures/doku.php?id=lectures:lecture1)
-* [Реляционная алгебра](https://aksenov.in/guap/db/lectures/doku.php?id=lectures:lecture2)
-* [Теория нормализации](https://aksenov.in/guap/db/lectures/doku.php?id=lectures:lecture3)
-* [SQL](https://aksenov.in/guap/db/lectures/doku.php?id=lectures:lecture4)<!-- * [Методы организации индексов](https://aksenov.in/guap/db/lectures/doku.php?id=lectures:lecture6) -->
-* [Обработка транзакций](https://aksenov.in/guap/db/lectures/doku.php?id=lectures:lecture5)
+* [Введение в реляционные базы данных](https://guap.aksenov.in/db/lectures/doku.php?id=lectures:lecture1)
+* [Реляционная алгебра](https://guap.aksenov.in/db/lectures/doku.php?id=lectures:lecture2)
+* [Теория нормализации](https://guap.aksenov.in/db/lectures/doku.php?id=lectures:lecture3)
+* [SQL](https://guap.aksenov.in/db/lectures/doku.php?id=lectures:lecture4)<!-- * [Методы организации индексов](https://guap.aksenov.in/db/lectures/doku.php?id=lectures:lecture6) -->
+* [Обработка транзакций](https://guap.aksenov.in/db/lectures/doku.php?id=lectures:lecture5)
 
 -----
 

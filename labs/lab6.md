@@ -8,7 +8,7 @@
 
 ### Теоретические сведения
 
-Предварительно ознакомиться: [материалы лекции по изоляции транзакций](https://aksenov.in/guap/db/lectures/doku.php?id=lectures:lecture5).
+Предварительно ознакомиться: [материалы лекции по изоляции транзакций](https://guap.aksenov.in/db/lectures/doku.php?id=lectures:lecture5).
 
 #### Многоверсионность (на примере MySQL)
 
