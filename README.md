@@ -37,11 +37,15 @@ __Важно__
 
 ## Содержание практического курса
 
-Практический курс по дисциплине включает 3 контрольных работы.
+Практический курс по дисциплине включает 2 практических работы...
 
-1. [Реляционная алгебра](https://github.com/db-course/syllabus/blob/master/tests/test1.md)
-1. [Теория нормализации](https://github.com/db-course/syllabus/blob/master/tests/test2.md)
-1. [SQL](https://github.com/db-course/syllabus/blob/master/tests/test3.md)
+1. [Реляционная алгебра](https://github.com/db-course/syllabus/blob/master/practices/practice1.md)
+1. [SQL](https://github.com/db-course/syllabus/blob/master/practices/practice2.md)
+
+...и 2 контрольных работы.
+
+1. [Теория нормализации I](https://github.com/db-course/syllabus/blob/master/tests/test1.md)
+1. [Теория нормализации II](https://github.com/db-course/syllabus/blob/master/tests/test2.md)
 <!-- 1. [Индексы](https://github.com/db-course/syllabus/blob/master/tests/test4.md) -->
 
 <!-- -----
