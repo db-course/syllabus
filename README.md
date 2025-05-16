@@ -31,7 +31,7 @@ __Важно__
 1. [Создание базы данных в СУБД SQLite](https://github.com/db-course/syllabus/blob/master/labs/lab3.md)
 1. [Создание представлений на основании запросов на выборку в СУБД SQLite. Запросы на модификацию и удаление данных в СУБД SQLite](https://github.com/db-course/syllabus/blob/master/labs/lab4.md)
 1. [Создание триггеров в СУБД SQLite](https://github.com/db-course/syllabus/blob/master/labs/lab5.md)
-1. [Управление транзакциями в СУБД MySQL](https://github.com/db-course/syllabus/blob/master/labs/lab6.md)
+<!-- 1. [Управление транзакциями в СУБД MySQL](https://github.com/db-course/syllabus/blob/master/labs/lab6.md) -->
 
 -----
 
