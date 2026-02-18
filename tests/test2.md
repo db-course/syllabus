@@ -1,4 +1,4 @@
-[Назад к главной странице курса](https://github.com/db-course/syllabus)
+[Назад к главной странице курса](../../..)
 
 ## 2. Теория нормализации II
 
@@ -8,7 +8,7 @@
 
 ### Содержание контрольной работы
 
-Предварительно ознакомиться: [материалы лекций по теории нормализации](https://guap.aksenov.in/db/lectures/doku.php?id=lectures:lecture3).
+Предварительно ознакомиться: [материалы лекций по теории нормализации](https://github.com/db-course/lecture-notes/blob/master/03/lecture3.md).
 
 Контрольная работа заключается в закреплении материалов по теории нормализации [1, 2] и представляет собой практическое упражнение.
 
@@ -39,8 +39,8 @@
 
 ### Вспомогательные материалы
 
-1. [Проектирование реляционных баз данных с использованием нормализации](http://citforum.ru/database/osbd/glava_23.shtml)
-2. [Нормальные формы отношений](http://citforum.ru/database/dblearn/dblearn06.shtml)
+1. [Проектирование реляционных баз данных с использованием нормализации](https://citforum.ru/database/osbd/glava_23.shtml)
+2. [Нормальные формы отношений](https://citforum.ru/database/dblearn/dblearn06.shtml)
 3. [Образец задания по контрольной работе](https://www.dropbox.com/s/kirfsqfq5a7lg3g/kr2example.pdf?dl=0)
 
-[Назад к главной странице курса](https://github.com/db-course/syllabus)
+[Назад к главной странице курса](../../..)
